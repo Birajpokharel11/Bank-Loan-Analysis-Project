@@ -17,21 +17,30 @@ The primary goals of this project are:
 - 📑 **Excel**: Preliminary data cleaning, exploration, and generating pivot tables and charts for quick insights.
 
 ## 📂 **Dataset Overview**
-The dataset used in this project consists of various attributes related to loan applications, borrower demographics, loan status, and financial metrics. Below are some key dataset headers:
-
-- 🆔 `Loan_ID`: Unique identifier for each loan application.
-- 👤 `Gender`: Gender of the borrower.
-- 💍 `Married`: Marital status of the borrower.
-- 👶 `Dependents`: Number of dependents the borrower has.
-- 🎓 `Education`: Educational background of the borrower.
-- 💼 `Self_Employed`: Employment status of the borrower.
-- 💵 `ApplicantIncome`: Income of the borrower.
-- 💰 `CoapplicantIncome`: Income of the co-borrower, if any.
-- 💸 `LoanAmount`: The amount of loan requested by the borrower.
-- 📅 `Loan_Amount_Term`: The term (in months) for which the loan has been granted.
-- 📝 `Credit_History`: The credit history of the borrower.
-- 🏠 `Property_Area`: The area type where the property is located.
-- ✅ `Loan_Status`: The status of the loan (Approved/Rejected).
+- 🆔 **ID**: Unique identifier for each loan application.
+- 🌍 **Address State**: The state where the borrower resides.
+- 📝 **Application Type**: The type of application (e.g., INDIVIDUAL).
+- 💼 **Employment Length**: The number of years the borrower has been employed.
+- 🏢 **Employer Title**: The name of the borrower’s employer.
+- 🎓 **Grade**: The loan grade assigned based on risk.
+- 🏠 **Home Ownership**: The ownership status of the borrower's home (e.g., RENT, MORTGAGE).
+- 📅 **Issue Date**: The date when the loan was issued.
+- 📈 **Last Credit Pull Date**: The most recent date when the borrower's credit was checked.
+- 💳 **Last Payment Date**: The date of the last payment made by the borrower.
+- ✅ **Loan Status**: The current status of the loan (e.g., Fully Paid, Charged Off).
+- 📅 **Next Payment Date**: The date of the next scheduled payment (if applicable).
+- 🆔 **Member ID**: A unique identifier for the borrower.
+- 🎯 **Purpose**: The purpose of the loan (e.g., car).
+- 📊 **Sub-Grade**: A more specific grade within the main grade category.
+- 🕒 **Term**: The loan term in months (e.g., 36 months, 60 months).
+- ✔️ **Verification Status**: The status of income verification (e.g., Verified, Source Verified, Not Verified).
+- 💰 **Annual Income**: The annual income of the borrower.
+- ⚖️ **DTI (Debt-to-Income Ratio)**: A ratio that compares the borrower's debt to their income.
+- 💵 **Installment**: The fixed monthly payment amount.
+- 💸 **Interest Rate**: The interest rate applied to the loan.
+- 🏦 **Loan Amount**: The total amount of the loan.
+- 🔢 **Total Accounts**: The total number of credit accounts held by the borrower.
+- 💲 **Total Payment**: The total amount paid by the borrower over the life of the loan.
 
 ## 📈 **Key Performance Indicators (KPIs)**
 The project focuses on several key KPIs that are crucial for understanding the performance and risk associated with the loan portfolio:
